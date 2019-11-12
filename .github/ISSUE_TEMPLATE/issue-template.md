@@ -1,13 +1,4 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
-
----
 name: Issue template
 about: Template a ser seguido para criação de issues no projeto
 title: ''
@@ -29,7 +20,6 @@ A *issue* deverá ser escrita de forma objetiva, clara e concisa, incluindo quai
 Caso necessite, poderá ser adicionado imagens no texto explicativo da *issue*.
 
 
-
 ### 2.1 Tasks:
 
 Todas as tarefas a serem realizadas deverão ser descritas em forma de tópicos e ao serem finalizadas devem receber um check.
@@ -49,7 +39,6 @@ Caso os critérios de aceitação já tenham sido claramente definidos pela equi
 ## 3. Assignees
 
 A *issue* deve ser destinada a pelo menos um colaborador do projeto.
-
 
 
 ## 4. Labels
