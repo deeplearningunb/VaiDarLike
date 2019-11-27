@@ -17,10 +17,7 @@ RUN pip3 install \
     jupyter \
     pandas \
     matplotlib \
-    sklearn \
-    nltk \
-    wordcloud \
-    seaborn
+    sklearn
 
 # Coping project
 COPY . /app
