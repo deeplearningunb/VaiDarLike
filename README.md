@@ -51,34 +51,35 @@ Calcula a probabilidade da melhor palavra possível como saída. Deve-se executa
 
 ### Como executar
 
-Pré-requisitos: [Docker](https://docs.docker.com/).
+Pré-requisitos: Virtualenv.
 
-* **Primeiro passo**: Inicie o <i>container</i> (Isso pode demorar um pouco). 
-_Pode necessitar de permissões de administrador para executar este comando_.  
+* **Primeiro passo**: Vá até a pasta raíz do projeto e crie um ambiente virtual.  
 
-
-```bash
-$ docker-compose up
-```
-
-ou  
 
 ```bash
-$ sudo docker-compose up
+$ virtualenv -p python3 venv
 ```
 
-* **Segundo passo**: Após inicialização do container, uma mensagem de log aparecerá.  
+* **Segundo passo**: Após criação do ambiente, basta acessá-lo.  
 
-<img alt="docker" src="https://raw.githubusercontent.com/deeplearningunb/VaiDarLike/master/logExample.png">
+```bash
+$ source venv/bin/activate
+```
 
-* **Terceiro passo**: Copie a mensagem de log similar a destacada na imagem e cole-a em seu navegador de preferência. _Esse link em específico é necessário devido ao token que o jupyter notebook requere em sua inicialização_
+* **Terceiro passo**: Instale as dependências do projeto.
+```bash
+$ pip3 install -r requirements.txt
+```
 
-* **Quarto passo**: Acesse o arquivo `.ipynb` no jupyter notebook dashboard.
+* **Quarto passo**: Execute o jupyter-notebook
+```bash
+$ jupyter-notebook
+```
 
 * **Quinto passo**: Navegue até a opção _cell_ e escolha a opção _"Run All"_. 
 **O computador pode demorar um pouco para executar todos os algoritmos**
 
-Caso queira parar o container, apenas pressione Ctrl + C e espere.
+Caso queira parar o ambiente virtual, apenas digite ```deactivate``` e espere.
 
 <p align="center">
 
