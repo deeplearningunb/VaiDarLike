@@ -61,7 +61,7 @@ mistune==0.8.4
 mock==3.0.5
 more-itertools==8.0.0
 murmurhash==1.0.2
-nbconvert==5.6.0
+nbconvert==6.5.1
 nbformat==4.4.0
 networkx==2.4
 nltk==3.4.5
